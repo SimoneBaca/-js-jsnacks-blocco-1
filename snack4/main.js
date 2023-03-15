@@ -15,5 +15,5 @@ for (let i = 0; i < authorizedPeople.length; i++) {
   authorizedPeople[i] === userName ? authorized = true : false;
 }
 
-alert(`Hi ${userName}. ${authorized ? "U are in the list" : "U are not in the list"}`);
+alert(`Hi ${userName}. ${authorized ? "You are in the list" : "You are not in the list"}`);
 
